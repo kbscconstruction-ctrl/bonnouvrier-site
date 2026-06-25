@@ -1,0 +1,120 @@
+/* ═══════════════════════════════════════════
+   BONNOUVRIER — Styles spécifiques aux pages
+   css/pages.css
+   ═══════════════════════════════════════════
+
+   Ce fichier contient les styles propres
+   à chaque page intérieure (non présents
+   sur la page d'accueil index.html).
+
+   Chaque section est commentée par page.
+═══════════════════════════════════════════ */
+
+
+/* ── PAGE HERO (commun à toutes les pages) ── */
+.page-hero {
+  background: var(--black);
+  padding: 8rem 5vw 4rem;
+  border-bottom: 3px solid var(--rouge);
+}
+
+.page-hero .breadcrumb {
+  font-size: .78rem;
+  color: var(--steel);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.page-hero .breadcrumb a {
+  color: var(--ardoise);
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.page-hero .breadcrumb a:hover { color: var(--rouge-vif); }
+
+.page-hero .breadcrumb span { color: var(--steel); }
+
+.page-hero h1 {
+  font-family: var(--fd);
+  font-weight: 800;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  text-transform: uppercase;
+  line-height: .95;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.page-hero h1 em {
+  font-style: normal;
+  color: var(--rouge-vif);
+}
+
+.page-hero p {
+  color: var(--steel);
+  max-width: 500px;
+  line-height: 1.8;
+  font-size: .95rem;
+}
+
+
+/* ── PAGE CHARPENTE ── */
+/* À compléter */
+
+
+/* ── PAGE TOITURE ── */
+/* À compléter */
+
+
+/* ── PAGE RÉNOVATION ── */
+/* À compléter */
+
+
+/* ── PAGE DESSIN TECHNIQUE ── */
+/* À compléter */
+
+
+/* ── PAGE PEINTURE ── */
+/* À compléter */
+
+
+/* ── PAGE MOBILIER ── */
+/* À compléter */
+
+
+/* ── PAGE RÉALISATIONS ── */
+.galerie-filter {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  padding: .5rem 1.1rem;
+  background: none;
+  border: 1px solid rgba(200,192,180,.25);
+  color: var(--steel);
+  font-family: var(--fd);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background: var(--rouge);
+  border-color: var(--rouge);
+  color: #fff;
+}
+
+
+/* ── PAGE CONTACT ── */
+/* À compléter */
