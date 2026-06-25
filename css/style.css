@@ -520,6 +520,10 @@ footer { padding: 3rem 5vw 2rem; }
   #contact { display:block !important; }
   .contact-left { padding-bottom:2rem; border-bottom:3px solid var(--rouge); }
 
+  /* Icônes peinture : centrage en colonne */
+  .proc-bar { align-items:stretch !important; }
+  .pb-step { width:100%; text-align:center; }
+
   /* Titres : pas de débordement */
   .section-title { font-size:clamp(1.6rem,7vw,2.8rem) !important; word-break:break-word; }
   .section { padding:3rem 5vw; }
