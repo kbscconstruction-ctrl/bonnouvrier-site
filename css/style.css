@@ -412,7 +412,7 @@ footer { padding: 3rem 5vw 2rem; }
   .zone-map p{color:var(--steel);font-size:.88rem;text-align:center}
 
   /* ── CONTACT ── */
-  #contact{background:#fff;display:grid;grid-template-columns:1fr 1.4fr;gap:0;border-radius:12px;overflow:hidden}
+  #contact{background:#fff;display:grid;grid-template-columns:1fr 1.4fr;gap:0;border-radius:0;overflow:hidden}
   .contact-left{background:var(--black);padding:5rem 4vw 5rem 5vw;border-right:3px solid var(--rouge)}
   .contact-left .section-title{color:var(--white)}
   .contact-left .section-sub{color:var(--steel)}
@@ -510,7 +510,7 @@ footer { padding: 3rem 5vw 2rem; }
   #mobilier > div { display:flex !important; flex-direction:column !important; gap:2rem !important; }
 
   /* Hero boutons : empilés */
-  .hero-btns { flex-direction:column !important; align-items:flex-start; gap:1rem !important; }
+  .hero-btns { flex-direction:column !important; align-items:flex-start; gap:1rem !important; padding-bottom:2.5rem; }
   .btn-primary, .btn-ghost { width:100%; justify-content:center; box-sizing:border-box; }
 
   /* Galerie : colonne unique */
